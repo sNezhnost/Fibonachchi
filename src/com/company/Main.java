@@ -9,9 +9,9 @@ import java.io.Reader;
 public class Main {
 
     public static void main(String[] args) {
-        int fib[];
+        long fib[];
         // int[] fib; - another variant to declarate an array
-        fib = new int[20];
+        fib = new long[50];
         // int[] fib = new int[20]; - declaration and definition of array
 /*
         InputStream inputStream = System.in;
@@ -22,10 +22,10 @@ public class Main {
         String sNum = bufferedReader.readLine();
         int nNum = Integer.parseInt(sNum);*/
 
-        int nNum = 20;
+        int nNum = 50;
         System.out.println(nNum + " чисел Фибоначчи: ");
 
-        if (nNum > 20 || nNum < 1)
+        if (nNum > 50 || nNum < 1)
             System.out.println("Неверно указано количество чисел");
         else if (nNum == 1){
             fib[0] = 1;
